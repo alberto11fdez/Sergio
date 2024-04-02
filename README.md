@@ -28,11 +28,11 @@ Para configurar el entorno de desarrollo y ejecutar la aplicación localmente, s
 
 Este proyecto es desarrollado por el equipo de Proyecto IW:
 
-Backend belen
-Frontend alberto
-Scrum Master luz marina
-Gestor de Base de Datos Alvaro serrano
-Pruebas Joaquín Sancehz
+Backend Belén Montes
+Frontend Alberto Fernández
+Scrum Master Luz Marina Montilla
+Gestor de Base de Datos Álvaro Serrano
+Pruebas Joaquín Sánchez
 
 ## Licencia
 
