@@ -1,8 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-import Body from './Componentes/Body';
-import Footer from './Componentes/Footer';
-import Navbar from './Componentes/Navbar';
+import Body from './componentes/Body';
+import Footer from './componentes/Footer';
+import Navbar from './componentes/Navbar';
 
 
 function App() {

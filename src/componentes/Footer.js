@@ -1,5 +1,5 @@
 import React from 'react';
-import "../Stylesheets/FooterStyle.css";
+import "../stylesheets/FooterStyle.css";
 
 export const Footer = () => {
   return (
@@ -45,13 +45,13 @@ export const Footer = () => {
                 <div className='div-links-footer'>
                       <h4>Presidente</h4>
                       <a href="/presidente">
-                          <p>Pique</p>
+                          <p>Ibai</p>
                       </a>
                 </div>
                 <div className='div-links-footer'>
                       <h4>Gobernador</h4>
                       <a href="/gobernador">
-                          <p>Lord Just</p>
+                          <p>Auron</p>
                       </a>
                 </div>
             </div>

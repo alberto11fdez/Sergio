@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
-import "../Stylesheets/Navbar.css"
-import Logo from '../Image/Logo.PNG'
+import "../stylesheets/Navbar.css"
+import Logo from '../image/Logo.PNG'
 
 
 function Navbar(){

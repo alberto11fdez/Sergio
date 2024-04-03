@@ -1,7 +1,7 @@
 import React from 'react'
-import Navbar from "../Componentes/Navbar"
-import Footer from "../Componentes/Footer"
-import "../Stylesheets/VehiculosView.css"
+import Navbar from "../componentes/Navbar"
+import Footer from "../componentes/Footer"
+import "../stylesheets/VehiculosView.css"
 
 function VehiculosView({vehiculo}) {
   return (

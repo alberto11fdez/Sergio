@@ -1,5 +1,5 @@
 import React from "react";
-import "../Stylesheets/Card.css"
+import "../stylesheets/Card.css"
 import { Link } from "react-router-dom";
 
 function Card({title, descripcion, imagen}){
