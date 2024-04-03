@@ -18,9 +18,9 @@ function Navbar(){
 
   return (
     <nav className="nav">
-      <img src={Logo} alt='' className="imgNav" href='#'></img>
+      <img src={Logo} alt='' className="imgNav" href='/'></img>
       <ul className={active}>
-          <li className="bav_item"><a href='#' className="nav_Link">Home</a></li>
+          <li className="bav_item"><a href='/' className="nav_Link">Home</a></li>
           <li className="bav_item"><a href='#' className="nav_Link">About</a></li>
           <li className="bav_item"><a href='#' className="nav_Link">Skills</a></li>
           <li className="bav_item"><a href='#' className="nav_Link">PortaFolio</a></li>

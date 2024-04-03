@@ -1,6 +1,6 @@
 const Vehiculos = [
     {
-      titulo: "Ford Fiesta",
+      titulo: "FordFiesta",
       descripcion: "Un utilitario urbano con estilo y tecnología.",
       imagen: "https://cdn.drivek.com/configurator-imgs/cars/es/800/FORD/FIESTA/40810_BERLINA-5-PUERTAS/ford-fiesta-5-doors-2021.jpg",
     },

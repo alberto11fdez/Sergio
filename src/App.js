@@ -5,8 +5,8 @@ import Footer from './Componentes/Footer';
 import Navbar from './Componentes/Navbar';
 
 
-
 function App() {
+
   return (
     <div className="App">
       <Navbar/>

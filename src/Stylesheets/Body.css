@@ -1,5 +1,5 @@
 .body-div{
-    height: 650px;
+    flex: auto;
 }
 
 .container{
@@ -13,4 +13,5 @@
     justify-content: center;
     
 }
+
 

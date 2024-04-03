@@ -6,8 +6,11 @@
     padding: 10px;
     text-align: center;
     border: 2px solid #444;
+    
 }
 
+
 .imagen{
-    width: 100px;
+    height: 200px;
+    width: 200px;
 }
