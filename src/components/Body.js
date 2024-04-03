@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "./Card";
 import Vehiculos from "../data/Vehiculos"
-import "../Stylesheets/Body.css";
+import "../stylesheets/Body.css";
 
 
 const Body=()=>{

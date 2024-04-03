@@ -42,7 +42,7 @@ const Vehiculos = [
     {
       titulo: "Hyundai i30",
       descripcion: "Un coche con gran equipamiento y tecnología a un precio competitivo.",
-      imagen: "",
+      imagen: "logo.svg",
     },
   ];
   export default Vehiculos;

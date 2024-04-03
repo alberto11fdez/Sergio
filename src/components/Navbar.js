@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import "../Stylesheets/Navbar.css"
+import "../stylesheets/Navbar.css"
 import Logo from '../Image/Logo.PNG'
 
 

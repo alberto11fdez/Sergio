@@ -1,5 +1,5 @@
 import React from "react";
-import "../Stylesheets/Card.css"
+import "../stylesheets/Card.css"
 import subasta from '../Image/subasta.png'
 
 function Card({title, descripcion, imagen}){

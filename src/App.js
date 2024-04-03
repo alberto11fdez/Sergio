@@ -1,8 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
-import Body from './Componentes/Body';
-import Footer from './Componentes/Footer';
-import Navbar from './Componentes/Navbar';
+import Body from './components/Body';
+import Footer from './components/Footer';
+import Navbar from './components/Navbar';
 
 
 
