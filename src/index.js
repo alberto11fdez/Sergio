@@ -6,11 +6,21 @@ import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Vehiculos from './data/Vehiculos';
 import VehiculosView from './views/VehiculosView';
+import IniciarSesion from "./componentes/IniciarSesion"
+import RegistroSesion from "./componentes/RegistroSesion"
 
 const routes = [
   {
     path: "/",
     element: <App/>,
+  },
+  {
+    path: "/iniciarSesion",
+    element:<IniciarSesion/>,
+  },
+  {
+    path: "/registroSesion",
+    element:<RegistroSesion/>,
   }
 ];
 
