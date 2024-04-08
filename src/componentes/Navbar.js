@@ -13,7 +13,7 @@ function Navbar(){
         active === 'nav_menu' ? setActive('nav_menu nav_active') : setActive('nav_menu');
 
         //TogglerIcon
-        toggleIcon === 'nav_toggler' ? setToggleIcon('nav_toggler toggle') : setToggleIcon("nav:toggler");
+        //toggleIcon === 'nav_toggler' ? setToggleIcon('nav_toggler toggle') : setToggleIcon("nav:toggler");
       }
 
   return (
@@ -27,11 +27,18 @@ function Navbar(){
           <li className="bav_item"><a href='#' className="nav_Link">Contact</a></li>
       </ul>
 
+      <div>
+        <a href='/iniciarSesion' className='inicioSesion'>Iniciar Sesión</a>
+        <a>/</a>
+        <a href='/registroSesion' className='registroSesion'>Registrarse</a>
+      </div>
+
       <div onClick={navToggle} className={toggleIcon}>
           <div className="line1"></div>
           <div className="line2"></div>
           <div className="line3"></div>
       </div>
+
     </nav>
   );
 }

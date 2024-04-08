@@ -1,17 +1,25 @@
 .body-div{
     flex: auto;
+    height: 500px;
 }
 
 .container{
     margin-top: 100px;
     margin-left: 150px;
     margin-right: 150px;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
     justify-content: center;
     
+}
+
+
+.paginacion{
+    justify-content: center;
+    margin-bottom: 100 px;
+    flex-wrap: wrap;
 }
 
 
