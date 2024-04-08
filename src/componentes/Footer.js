@@ -17,6 +17,9 @@ export const Footer = () => {
                     <a href="/defensas">
                         <p>Defensas</p>
                     </a>
+                    <a href="/portero">
+                        <p>Portero</p>
+                    </a>
                 </div>
                 <div className='div-links-footer'>
                     <h4>Ligas</h4>
