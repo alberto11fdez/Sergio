@@ -1,5 +1,6 @@
 import React from 'react';
 import "../stylesheets/FooterStyle.css";
+import {Link} from 'react-router-dom';
 
 export const Footer = () => {
   return (
@@ -7,55 +8,27 @@ export const Footer = () => {
         <div className='padding-section-footer'>
             <div className='links-footer'>
                 <div className='div-links-footer'>
-                    <h4>Plantilla</h4>
-                    <a href="/delanteros">
-                        <p>Delanteros</p>
-                    </a>
-                    <a href="/medios">
-                        <p>Medios</p>
-                    </a>
-                    <a href="/defensas">
-                        <p>Defensas</p>
-                    </a>
-                    <a href="/portero">
-                        <p>Portero</p>
-                    </a>
+                    <h4>Recurso Utilizados</h4>
+                    <Link to="https://react.dev/"><p>React</p></Link>
+                    <Link to="https://mui.com/"><p>Miu</p></Link>
+                    <Link to="https://nodejs.org/en"><p>Node && Express</p></Link>
+                    <Link to="https://www.mongodb.com/"><p>Mongo Db</p></Link>
                 </div>
                 <div className='div-links-footer'>
-                    <h4>Ligas</h4>
-                    <a href="/premier">
-                        <p>Premier</p>
-                    </a>
-                    <a href="/laLiga">
-                        <p>La Liga</p>
-                    </a>
-                    <a href="/serieA">
-                        <p>Serie A</p>
-                    </a>
+                    <h4>Antecedentes</h4>
+                    <Link to="https://www.ebay.es/"><p>Ebay</p></Link>
+                    <Link to="https://www.copart.es/Content/es/es-ES/landing-page/what-is-copart-spain?gad_source=1&gclid=Cj0KCQjwztOwBhD7ARIsAPDKnkBLw2yvOUzZou-pP2VZhugR8gaQ2HhkJlIJ7UmhnDbjA7U50kwUUSwaAsDjEALw_wcB"><p>Copart</p></Link>
+                    <Link to="https://www.bid4assets.com/"><p>Bid4Assets</p></Link>
                 </div>
                 <div className='div-links-footer'>
-                    <h4>Competiciones</h4>
-                    <a href="/champions">
-                        <p>Champions</p>
-                    </a>
-                    <a href="/europeLeague">
-                        <p>Europe League</p>
-                    </a>
-                    <a href="/faCup">
-                        <p>FA Cup</p>
-                    </a>
-                </div>
-                <div className='div-links-footer'>
-                      <h4>Presidente</h4>
-                      <a href="/presidente">
-                          <p>Ibai</p>
+                      <h4>Universidad</h4>
+                      <a href="/">
+                          <p>Universidad De Córdoba</p>
                       </a>
                 </div>
                 <div className='div-links-footer'>
-                      <h4>Gobernador</h4>
-                      <a href="/gobernador">
-                          <p>Auron</p>
-                      </a>
+                      <h4>Asignatura</h4>
+                      <Link to="https://www.uco.es/eguiado/guias/2023-24/101409es_2023-24.pdf"><p>Ingeniería Web</p></Link>
                 </div>
             </div>
 
@@ -68,10 +41,10 @@ export const Footer = () => {
                    </p>
                 </div>
                 <div className='links-bellow-footer'>
-                    <a href='/terminos'><p> Terminos && Condiciones</p></a>
-                    <a href='/privacidad'><p> Privacidad</p></a>
-                    <a href='/seguridad'><p> Seguridad</p></a>
-                    <a href='/coockies'><p> Cookies </p></a>
+                    <a href='/'><p> Terminos && Condiciones</p></a>
+                    <a href='/'><p> Privacidad</p></a>
+                    <a href='/'><p> Seguridad</p></a>
+                    <a href='/'><p> Cookies </p></a>
                 </div>
             </div>
 
