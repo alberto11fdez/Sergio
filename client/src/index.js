@@ -21,7 +21,7 @@ const routes = [
   {
     path: "/registroSesion",
     element:<RegistroSesion/>,
-  }
+  },
 ];
 
 Vehiculos.forEach((Vehiculo) => {
