@@ -13,18 +13,18 @@ mongoose.connect(uri)
 });
 
 const CommentSchema =new mongoose.Schema({
-    id_post:String,
-    name:String,
-    surname:String,
-    email:String,
-    Password:String,
-},{'collection':'Comentarios'});
+    _id:String,
+    nombre:String,
+    apellidos:String,
+    correo:String,
+    contraseña:String,
+},{'collection':'Users'});
 
 const Comment = mongoose.model('SUB-MAS',CommentSchema,'Users');
 
 router.get("/", async (req,res)=>{
     try{
-        const comments = await Comment.find({'id_post':req.query.id_post});
+        const comments = await Comment.find({'_id':req.query.id_post});
         if(comments){
             res.send(comments);
         }
