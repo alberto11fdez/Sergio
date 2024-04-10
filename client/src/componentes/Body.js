@@ -52,12 +52,14 @@ const Body=()=>{
     return (
             <div className="body-div">
                 <div className="container">
-                    {items}
-                </div>
-                <div className="paginacion">
+                    <div className="items">
+                        {items} 
+                    </div>
+                    <div className="paginacion">
                         <button onClick={prevHandler}>Prev</button>
                         <button onClick={nextHandler}>Next</button>
                     </div>
+                </div>
             </div>
 
         );

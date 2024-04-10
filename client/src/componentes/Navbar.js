@@ -23,15 +23,9 @@ function Navbar(){
           <li className="bav_item"><a href='/' className="nav_Link">Home</a></li>
           <li className="bav_item"><a href='#' className="nav_Link">About</a></li>
           <li className="bav_item"><a href='#' className="nav_Link">Skills</a></li>
-          <li className="bav_item"><a href='#' className="nav_Link">PortaFolio</a></li>
           <li className="bav_item"><a href='#' className="nav_Link">Contact</a></li>
+          <li className="bav_item"><a href='iniciarSesion' className="nav_Link">Iniciar Sesión</a></li>
       </ul>
-
-      <div>
-        <a href='/iniciarSesion' className='inicioSesion'>Iniciar Sesión</a>
-        <a>/</a>
-        <a href='/registroSesion' className='registroSesion'>Registrarse</a>
-      </div>
 
       <div onClick={navToggle} className={toggleIcon}>
           <div className="line1"></div>
