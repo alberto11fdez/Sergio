@@ -15,13 +15,11 @@ const Users = mongoose.model('SUB-MAS',UsersSchema,'Users');
 
 router.get("/", async (req,res)=>{
   try{
-      const comments = await Users.find({'nombre':req.query.nombre});
-      if(comments){
-          res.send(comments);
-      }
-      else{
-          res.send({});
-      }
+      const comments = await Users.find();
+      res.send(comments);
+      
+     
+   
   }catch(error){
       console.log(error);
       res.status(400).json({error:error.message});
