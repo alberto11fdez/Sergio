@@ -10,6 +10,6 @@ const ProductsSchema =new mongoose.Schema({
     Propietario:String,
   },{'collection':'Products'});
   
-  const productModel = mongoose.model('SUB-MAS',ProductsSchema,'Products');
+  const productModel = mongoose.model('Products',ProductsSchema);
   
-  module.exports=productdModel;
+  module.exports=productModel;

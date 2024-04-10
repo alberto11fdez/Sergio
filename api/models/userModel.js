@@ -9,6 +9,6 @@ const UsersSchema =new mongoose.Schema({
     contraseña:String,
   },{'collection':'Users'});
   
-  const userModel = mongoose.model('SUB-MAS',UsersSchema,'Users');
+  const userModel = mongoose.model('Users',UsersSchema);
   
   module.exports=userModel;

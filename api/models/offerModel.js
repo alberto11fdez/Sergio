@@ -8,6 +8,6 @@ const offerSchema =new mongoose.Schema({
     Propietario:String,
   },{'collection':'offers'});
   
-  const offerModel = mongoose.model('SUB-MAS',offerSchema,'offers');
+  const offerModel = mongoose.model('offers',offerSchema);
   
   module.exports=offerModel;

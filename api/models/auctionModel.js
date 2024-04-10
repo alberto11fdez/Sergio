@@ -10,6 +10,6 @@ const AuctionSchema =new mongoose.Schema({
     tiempo_final:String,
   },{'collection':'Auction'});
   
-  const AuctionModel = mongoose.model('SUB-MAS',AuctionSchema,'Auction');
+  const AuctionModel = mongoose.model('Auction',AuctionSchema);
   
   module.exports=AuctionModel;
