@@ -1,23 +1,16 @@
 var express = require('express');
 var router = express.Router();
 var mongoose = require("mongoose");
+var Users = require('../models/userModel');
 
 /* GET users listing. */
-const UsersSchema =new mongoose.Schema({
-    
-  nombre:String,
-  apellidos:String,
-  correo:String,
-  contraseña:String,
-},{'collection':'Users'});
 
-const Users = mongoose.model('SUB-MAS',UsersSchema,'Users');
 
 router.get("/", async (req,res)=>{
   try{
       const comments = await Users.find();
       res.send(comments);
-      
+
      
    
   }catch(error){
